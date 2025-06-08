@@ -1,0 +1,2 @@
+execute as @e[type=marker,tag=circuit_breaker] at @s unless block ~ ~ ~ cfm_circuit_breaker:circuit_breaker run function backrooms:powerhouse_depower
+execute as @e[type=marker,tag=circuit_breaker] at @s unless block ~ ~ ~ cfm_circuit_breaker:circuit_breaker run kill @s

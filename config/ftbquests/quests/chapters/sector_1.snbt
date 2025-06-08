@@ -1,0 +1,641 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sector_1"
+	group: ""
+	icon: "refurbished_furniture:oak_chair"
+	id: "14F820A255718CC8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FD58013123EFE42"]
+			description: [
+				"You can use brushes to sweep up the carpet for carpet dust."
+				""
+				"&oNote: The effects of long term carpet dust exposure are unknown."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7FAC527C8C32346A"
+			rewards: [{
+				id: "43FFE9CB5D73ACA9"
+				item: "kubejs:party_popper"
+				type: "item"
+			}]
+			subtitle: "Do not Inhale this..."
+			tasks: [
+				{
+					id: "2A319853160BB950"
+					item: {
+						Count: 1
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4BA91CCF072559E1"
+					item: { Count: 5, id: "kubejs:carpet_dust" }
+					type: "item"
+				}
+			]
+			title: "This Place could use some Sweeping"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"307781E736AB9A56"
+				"03026FA82293D305"
+			]
+			description: ["If you are lost on how to construct an Alloy Kiln, then please refer to the Engineers Manual."]
+			icon: "immersiveengineering:alloy_smelter"
+			id: "7A0ECC4384FC5F3C"
+			rewards: [
+				{
+					id: "0B9AE7D401935AC9"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+				{
+					id: "430798C9188E73BD"
+					item: "immersiveengineering:manual"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "There is Always a Bigger Furnace"
+			tasks: [
+				{
+					count: 8L
+					id: "6BB57F03AEAB3265"
+					item: { Count: 8, id: "immersiveengineering:alloybrick" }
+					type: "item"
+				}
+				{
+					id: "2FD327C931FA41F4"
+					item: {
+						Count: 1
+						id: "immersiveengineering:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Slightly Bigger Furnace"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["74DC667B840746B0"]
+			description: ["Wooden tools are essential to your succes. You can use knifes to cut up the carpet, revealing the concrete tiles underneath..."]
+			icon: {
+				Count: 1
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2FD58013123EFE42"
+			subtitle: "The setup for succes"
+			tasks: [
+				{
+					id: "45A5F6CD9D1D337B"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A7EF93254E01F56"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B355D7CA8A10C7"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "Wooden Tools"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: [
+				"If you have not yet adjusted to your new liminal environment. Then don't worry, let us make our own base and make it a bit more cozy."
+				""
+				"The random furniture scattered across the backrooms could probably be repurposed into planks to increase your chance of survival. "
+				""
+				"Let's get started with making a crafting table. Start with crafting a chair into planks."
+			]
+			icon: "refurbished_furniture:oak_chair"
+			id: "74DC667B840746B0"
+			rewards: [{
+				id: "7124A7E7D06B3B8A"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Welcome to Liminal Industries!"
+			tasks: [{
+				id: "06B5515FE776BEBA"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Punching Chairs"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A8C680427F1464B"]
+			id: "307781E736AB9A56"
+			rewards: [
+				{
+					count: 5
+					id: "491C985D1F430C15"
+					item: "minecraft:flower_pot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4A5576C457341C87"
+					item: "minecraft:decorated_pot"
+					type: "item"
+				}
+				{
+					id: "3E61094F277A80B3"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+				{
+					id: "0E3FB0E7B71A1759"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					id: "4A7CA41B7D3F4C2E"
+					item: "minecraft:lily_of_the_valley"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "5D105029246CD738"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "Making Clay"
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7A0ECC4384FC5F3C"]
+			icon: {
+				Count: 1
+				id: "ceramicbucket:ceramic_bucket"
+				tag: {
+					Fluid: {
+						Amount: 1000
+						FluidName: "minecraft:lava"
+					}
+				}
+			}
+			id: "10FD77A896677B61"
+			tasks: [
+				{
+					id: "56F24057B479494A"
+					item: "ceramicbucket:ceramic_bucket"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "51C12C0C1E46DF26"
+					item: { Count: 64, id: "kubejs:concrete_piece" }
+					type: "item"
+				}
+				{
+					id: "5A6717B82D728127"
+					item: {
+						Count: 1
+						id: "ceramicbucket:ceramic_bucket"
+						tag: {
+							Fluid: {
+								Amount: 1000
+								FluidName: "minecraft:lava"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Liquid Rock"
+			x: 0.0d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"10FD77A896677B61"
+				"7B8E3CF8E588CD0B"
+			]
+			id: "203FC15B09EAA27F"
+			size: 2.0d
+			subtitle: "Entering the Stone Age"
+			tasks: [{
+				id: "405232540EBBD06E"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "Cobblestone Generator"
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			dependencies: [
+				"6C636EA05BA437ED"
+				"307781E736AB9A56"
+			]
+			id: "7B8E3CF8E588CD0B"
+			tasks: [{
+				id: "5CBFA3B1AD14A479"
+				item: {
+					Count: 1
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Liquid Water"
+			x: -5.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["2FD58013123EFE42"]
+			description: [
+				"You can collect water by right-clicking Soggy Carpet with a sponge."
+				""
+				"Soggy Carpet can be found all throughout the backrooms. It is slightly darker than normal carpet."
+				""
+				"{image:kubejs:textures/quests/wet_carpet.png width:192 height:102 align:center}"
+			]
+			icon: "minecraft:wet_sponge"
+			id: "6C636EA05BA437ED"
+			subtitle: "I like my Carpet Soggy"
+			tasks: [
+				{
+					id: "4F9338A63C2CC4A7"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					id: "492AA34CC5EF690C"
+					item: "minecraft:wet_sponge"
+					type: "item"
+				}
+			]
+			title: "Collecting Water"
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2FD58013123EFE42"]
+			description: [
+				"You can cut open the carpet using a knife, revealing some strange concrete tiles underneath."
+				""
+				"With a wooden pickaxe you can mine your newly discovered concrete tiles for small pieces of concrete."
+				""
+				"{image:kubejs:textures/quests/cut_carpet.png width:192 height:102 align:center}"
+			]
+			icon: "kubejs:concrete_piece"
+			id: "23E590694FAB22A1"
+			rewards: [{
+				id: "0B9871D2537F0514"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "Haha, its destroyed"
+			tasks: [
+				{
+					id: "636C89317E81121C"
+					item: "kubejs:cut_carpet"
+					type: "item"
+				}
+				{
+					id: "57B69BC191EAC23F"
+					item: "kubejs:concrete_piece"
+					type: "item"
+				}
+			]
+			title: "Vandalism"
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["23E590694FAB22A1"]
+			description: ["You can make a furnace out of concrete pieces for all your smelting needs."]
+			id: "03026FA82293D305"
+			tasks: [{
+				id: "76DA42855E8AC469"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["2FD58013123EFE42"]
+			description: ["You can gain additional wood by placing wooden furniture on top of a chopping board and chopping it with an axe."]
+			icon: "farmersdelight:cutting_board"
+			id: "4E7AB902FFF70225"
+			subtitle: "Reverse Carpenter"
+			tasks: [
+				{
+					id: "7856BB129C2D3B9F"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3260495F3102A868"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "More Wood With Careful Chopping"
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7FAC527C8C32346A"]
+			description: [
+				"You might have found out about the carpet inhabitants by now. The eggs they drop are a good source of protiene."
+				""
+				"Killing them with a knife will drop additional eggs."
+				""
+				"They have an aquired taste, however..."
+			]
+			icon: "miners_delight:weird_caviar"
+			id: "77AB8365642DA7B1"
+			rewards: [{
+				count: 3
+				id: "7C33CC0B13E640BC"
+				item: "miners_delight:weird_caviar"
+				type: "item"
+			}]
+			subtitle: "Crush with Blade, Releases Juice Better"
+			tasks: [
+				{
+					id: "4A871C44E099B727"
+					item: {
+						Count: 1
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4224B9A58EF2ECFE"
+					item: "miners_delight:silverfish_eggs"
+					type: "item"
+				}
+				{
+					id: "38CA0C9EF7F7B17D"
+					item: "miners_delight:weird_caviar"
+					type: "item"
+				}
+			]
+			title: "Technically a Meal"
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7A8C680427F1464B"]
+			description: [
+				"The seeds that you found in the carpet can be put to good use."
+				"They can be planted on Soggy Carpet."
+				""
+				"Do note that they need sufficient light in order to grow. So make sure you pick the right spot."
+			]
+			icon: "neapolitan:strawberries"
+			id: "4D215AD91B14D558"
+			rewards: [
+				{
+					count: 3
+					id: "3DEF8223CD209F1C"
+					item: {
+						Count: 1
+						id: "fairylights:hanging_lights"
+						tag: {
+							pattern: [{
+								Count: 1b
+								id: "fairylights:paper_lantern"
+								tag: {
+									color: 11546150
+								}
+							}]
+							string: "fairylights:black_string"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BDDF9846CA7A790"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Open: 0b
+								SelectedSlot: 0b
+								Size: 6
+							}
+						}
+						id: "supplementaries:lunch_basket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Starting a Farm"
+			tasks: [
+				{
+					id: "39C33E62CB0181AE"
+					item: "neapolitan:strawberry_pips"
+					type: "item"
+				}
+				{
+					id: "7AD08D080F0FBA11"
+					item: "berry_good:sweet_berry_pips"
+					type: "item"
+				}
+			]
+			title: "Berry Good"
+			x: -2.5d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"6C636EA05BA437ED"
+				"7FAC527C8C32346A"
+			]
+			description: [
+				"You can use wet sponges as a source of washing. "
+				"The fan will blow right through it."
+			]
+			icon: "create:propeller"
+			id: "7A8C680427F1464B"
+			rewards: [
+				{
+					id: "7A074F2DE3649347"
+					item: {
+						Count: 1
+						id: "supplementaries:bubble_blower"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7CAD2E1B6E914F0C"
+					item: "supplementaries:soap"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Liminal Splashing"
+			tasks: [
+				{
+					id: "15725A51724F494F"
+					item: "create:propeller"
+					type: "item"
+				}
+				{
+					id: "507A3C462D4627F5"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "69FC391F59E5798C"
+					item: "minecraft:wet_sponge"
+					type: "item"
+				}
+			]
+			title: "Wooden Propeller"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["2FD58013123EFE42"]
+			description: ["You can scrape the wallpaper off the walls using any axe. This can provide the resources to make a small backpack."]
+			icon: "supplementaries:sack"
+			id: "09DBA6DD7E5621CB"
+			rewards: [{
+				id: "7F9ADDE8A4AD0E6A"
+				item: "supplementaries:sack"
+				type: "item"
+			}]
+			subtitle: "We are going on an Adventure!"
+			tasks: [
+				{
+					count: 7L
+					id: "4BFF046AE790BB32"
+					item: "kubejs:wallpaper"
+					type: "item"
+				}
+				{
+					id: "3F2AC8263C94EB4F"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "477A5773CAFC846F"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			title: "Pack your bags"
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2FD58013123EFE42"]
+			description: [
+				"Some parts of these rooms seem to be infected with sculk. It's probably best to stay as far away from the stuff as possible."
+				""
+				"Barricading corridors to infected rooms might also prove an effective tactic."
+				""
+				"Stay safe!"
+			]
+			icon: "kubejs:explantion2_sign"
+			id: "49C5EB9D0E33ACA4"
+			rewards: [
+				{
+					id: "192ECA8AC6CAD43B"
+					item: "camera:camera"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2C283299D9E6E2A9"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "556A7EED287AA012"
+					item: "camera:image_frame"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Turn away when you see sculk"
+			tasks: [{
+				id: "7CC2D7594F90E20C"
+				title: "Whats the worst that could happen?"
+				type: "checkmark"
+			}]
+			title: "Stay Safe"
+			x: 2.5d
+			y: 5.5d
+		}
+	]
+	title: "Chapter 1"
+}
